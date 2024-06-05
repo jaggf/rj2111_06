@@ -1,0 +1,176 @@
+a {
+  text-decoration: none;
+}
+#app {
+  min-width: 1200px;
+}
+#app .header {
+  width: 100%;
+}
+#app .header .content .head-top {
+  display: flex;
+  align-items: center;
+  /*background-color: #212121;*/
+}
+#app .header .content .head-top .title {
+  height: 85px;
+  line-height: 85px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  width: 280px;
+}
+#app .header .content .head-top .title .tagging {
+  /*color: #FF6809;*/
+}
+  #app .header .content .head-top .search-ipt input {
+  /*width: 180px;*/
+  /*height: 28px;*/
+  /*color: #999;*/
+  /*padding: 0 5px;*/
+  /*border: 1px solid #6A6A6A;*/
+  /*background-color: rgba(255, 255, 255, 0.1);*/
+  /*outline: none;*/
+  /*box-sizing: border-box;*/
+}
+#app .header .content .head-top .search-btn input {
+  width: 40px;
+  height: 28px;
+  color: #fff;
+  margin: 0 18px;
+  box-sizing: border-box;
+  border: 1px solid #6A6A6A;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  cursor: pointer;
+}
+#app .header .content .head-top .search-btn input:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+#app .header .content .head-bottom {
+  width: 100%;
+  height: 125px;
+  background-color: #323232;
+  border-top: 1px solid #444;
+  border-bottom: 5px solid #FE980E;
+}
+#app .header .content .head-bottom .nav .nav-ul {
+  display: flex;
+}
+#app .header .content .head-bottom .nav .nav-ul .nav-link a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 125px;
+  color: #909090;
+  font-weight: bolder;
+  border-right: 1px solid #2D2D2D;
+}
+#app .header .content .head-bottom .nav .nav-ul .nav-link a .fas {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+#app .header .content .head-bottom .nav .nav-ul .link-current {
+  background-image: linear-gradient(to bottom, #FF0000 0%, #0000ff 100%) !important;
+}
+#app .header .content .head-bottom .nav .nav-ul .link-current a {
+  color: #fff !important;
+}
+#app .header .content .head-bottom .nav .nav-ul .link-active {
+  background-image: linear-gradient(to bottom, #4b4b4b 0%, #000000 100%);
+}
+#app .header .content .head-bottom .nav .nav-ul .link-active a {
+  color: #fff;
+}
+#app .content .container {
+  display: flex;
+}
+#app .content .container .left-menu {
+  width: 280px;
+  height: 100vh;
+  border-right: 1px solid #CDCDCD;
+  box-sizing: border-box;
+}
+#app .content .container .left-menu .menu-line {
+  border-bottom: 1px solid #ECECEC;
+  cursor: pointer;
+}
+#app .content .container .left-menu .title {
+  position: relative;
+  padding: 15px 0;
+  padding-left: 20px;
+  transition: color 0.5s;
+}
+#app .content .container .left-menu .title .fas {
+  position: absolute;
+  right: 15px;
+  transition: transform 0.3s;
+}
+#app .content .container .left-menu .title::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #ff7700;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: transform 1s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+#app .content .container .left-menu .title-active {
+  color: #fff;
+}
+#app .content .container .left-menu .title-active::before {
+  transform: scaleX(1);
+}
+#app .content .container .left-menu .mini-menu {
+  border-top: 1px solid #ECECEC;
+  display: none;
+}
+#app .content .container .left-menu .mini-menu .menu-ul {
+  padding-left: 40px;
+}
+#app .content .container .left-menu .mini-menu .menu-ul .link:first-child {
+  border-top: none;
+}
+#app .content .container .left-menu .mini-menu .menu-ul .link {
+  position: relative;
+  border-top: 1px solid #ECECEC;
+  padding: 10px 0;
+}
+#app .content .container .left-menu .mini-menu .menu-ul .link a {
+  color: #444;
+  transition: color 0.3s;
+}
+#app .content .container .left-menu .mini-menu .menu-ul .link::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #ffb413fa;
+  transform: scaleX(0);
+  transform-origin: 100% 0;
+  transition: transform 1s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+#app .content .container .left-menu .mini-menu .menu-ul .link-active::before {
+  transform: scaleX(1);
+}
+#app .content .container .left-menu .mini-menu .menu-ul .link-active a {
+  color: #FE980E;
+}
+#app .content .container .right-iframe {
+  width: 100%;
+}
+#app .content .container .right-iframe .iframe-main {
+  width: 100%;
+  height: 100vh;
+}

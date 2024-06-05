@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./css/adminuser.css">
+    <link rel="stylesheet" href="../fa/css/all.min.css">
+    <title>添加管理员</title>
+</head>
+<script src="../js/jQuery-3.6.0.min.js"></script>
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="info-wrapper">
+                <div class="title hasShadow">
+                    <i class="fas fa-user-plus"></i>
+                    <span>添加管理员账号</span>
+                </div>
+                <div class="info-user hasShadow">
+                    <div class="form-box">
+                        <form action="#" class="from-addUser" id="J_from_addUser">
+                            <div class="user column input-tips">
+                                <span class="text">账号：</span>
+                                <input type="text" id="J_inUser_account" placeholder="请输入管理员账号">
+                                <div class="tips" id="J_pwdTips">
+                                    <i class="fas fa-exclamation-circle"></i><span class="tipstext" id="J_tipstext">提示</span>
+                                </div>
+                            </div>
+                            <div class="pwd column">
+                                <span class="text">密码：</span>
+                                <input type="password" id="J_inUser_password" placeholder="请输入密码">
+                                <div class="tips" id="J_pwdTips">
+                                    <i class="fas fa-exclamation-circle"></i><span class="tipstext" id="J_tipstext">提示</span>
+                                </div>
+                            </div>
+                            <div class="pwd-repeat column">
+                                <span class="text">确认密码：</span>
+                                <input type="password" id="J_inUser_password_repeat" placeholder="请确认密码">
+                                <div class="tips" id="J_pwdTips">
+                                    <i class="fas fa-exclamation-circle"></i><span class="tipstext" id="J_tipstext">提示</span>
+                                </div>
+                            </div>
+                            <div class="sub-btn">
+                                <input type="submit" name="" id="J_subBtn" value="添加">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <div class="mini-table hasShadow">
+                        <table class="tablebox" id="J_table">
+                            <tr class="title">
+                                <th>ID</th>
+                                <th>账号</th>
+                                <th>创建时间</th>
+                                <th>操作</th>
+                            </tr>
+                            <tr>
+                                <td class="user-ID">1</td>
+                                <td class="user-account">admin</td>
+                                <td class="user-createTime">2022-06-16 16:10:56</td>
+                                <td>
+                                    <div class="operation-btns">
+                                        <input type="button" value="查看" class="lookbtn">
+                                        <input type="button" value="删除" class="deletebtn">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/adminuser.js"></script>
+</html>

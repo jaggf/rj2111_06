@@ -1,0 +1,230 @@
+#app .header .container .head-nav .nav-ul .hasMenu {
+  position: relative;
+  border-bottom-color: transparent !important;
+}
+#app .header .container .head-nav .nav-ul .hasMenu::before {
+  position: absolute;
+  right: -15px;
+  top: 26px;
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 6px;
+  background: url(../images/down-icon-2.png) no-repeat;
+  background-size: 100%;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+#app .header .container .head-nav .nav-ul .hasMenu:hover::before {
+  transform: rotate(180deg);
+}
+#app .header .container .head-nav .nav-ul .hasMenu .drop-menu {
+  position: absolute;
+  top: 45px;
+  left: -16px;
+  z-index: 999;
+  display: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+#app .header .container .head-nav .nav-ul .hasMenu .drop-menu .menu-ul {
+  width: 90px;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+#app .header .container .head-nav .nav-ul .hasMenu .drop-menu .menu-ul .link-li {
+  transition: background-color 0.2s;
+}
+#app .header .container .head-nav .nav-ul .hasMenu .drop-menu .menu-ul .link-li:hover {
+  background-color: #fda206;
+}
+#app .header .container .head-nav .nav-ul .hasMenu .drop-menu .menu-ul .link-li a {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+}
+#app .contents .container .rotation-img {
+  position: relative;
+  width: 1008px;
+}
+#app .contents .container .rotation-img .content .imgs-ul {
+  width: 100%;
+  height: 355px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+#app .contents .container .rotation-img .content .imgs-ul .item:nth-of-type(n+2) {
+  opacity: 0;
+}
+#app .contents .container .rotation-img .content .imgs-ul .item {
+  position: absolute;
+}
+#app .contents .container .rotation-img .content .imgs-ul .item img {
+  width: 1008px;
+}
+#app .contents .container .rotation-img .content .imgs-ul .item .title {
+  position: absolute;
+  bottom: 9px;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+#app .contents .container .rotation-img .content .imgs-ul .item .title span {
+  color: #fff;
+  font-size: 18px;
+  line-height: 45px;
+}
+#app .contents .container .rotation-img .slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto 0;
+  width: 100%;
+  height: 69px;
+}
+#app .contents .container .rotation-img .slides .slidesbtn {
+  position: absolute;
+  width: 40px;
+  height: 69px;
+  overflow: hidden;
+  background-image: url(../images/icon-slides.png);
+}
+#app .contents .container .rotation-img .slides .slidesbtn:nth-child(1) {
+  left: 0;
+  background-position: 82px 0;
+}
+#app .contents .container .rotation-img .slides .slidesbtn:nth-child(1):hover {
+  background-position: 0px 0;
+}
+#app .contents .container .rotation-img .slides .slidesbtn:nth-child(2) {
+  right: 0;
+  background-position: 43px 0;
+}
+#app .contents .container .rotation-img .slides .slidesbtn:nth-child(2):hover {
+  background-position: -41px 0;
+}
+#app .contents .container .tj-courses {
+  width: 100%;
+  background-color: #F5F4F4;
+}
+#app .contents .container .tj-courses .content {
+  width: 95%;
+  margin: 0 auto;
+}
+#app .contents .container .tj-courses .content .title {
+  width: 100%;
+  height: 51px;
+  padding: 15px 0;
+  background: url(../images/tjkcico.png) no-repeat center;
+  background-size: 70%;
+}
+#app .contents .container .tj-courses .content .content .item-ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#app .contents .container .tj-courses .content .content .item-ul .item {
+  width: 220px;
+  height: 157px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#app .contents .container .tj-courses .content .more {
+  padding-bottom: 35px;
+}
+#app .contents .container .tj-courses .content .more .morebtn {
+  width: 100%;
+  height: 50px;
+  background: url(../images/morecourse.png) no-repeat center;
+}
+#app .contents .container .zp-exhibition {
+  padding-bottom: 45px;
+}
+#app .contents .container .zp-exhibition .content {
+  width: 90%;
+  margin: 0 auto;
+}
+#app .contents .container .zp-exhibition .content .title {
+  width: 100%;
+  height: 51px;
+  padding: 15px 0;
+  background: url(../images/zpzsico.png) no-repeat center;
+  background-size: 72%;
+}
+#app .contents .container .zp-exhibition .content .content {
+  display: flex;
+}
+#app .contents .container .zp-exhibition .content .content .left {
+  display: flex;
+  flex-direction: column;
+  width: 198px;
+}
+#app .contents .container .zp-exhibition .content .content .left img:nth-child(1) {
+  margin-bottom: 8px;
+}
+#app .contents .container .zp-exhibition .content .content .center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 451px;
+  height: 334px;
+  margin: 0 8px;
+}
+#app .contents .container .zp-exhibition .content .content .center img:nth-child(1) {
+  margin-bottom: 8px;
+}
+#app .contents .container .web-resources .content .title {
+  width: 100%;
+  height: 82px;
+  background: url(../images/ghdfsico.png) no-repeat;
+  background-size: 100%;
+}
+#app .contents .container .web-resources .content .content {
+  width: 90%;
+  margin: 45px auto;
+}
+#app .contents .container .web-resources .content .content .title-img {
+  float: left;
+  width: 167px;
+  height: 124px;
+  margin-right: 50px;
+}
+#app .contents .container .web-resources .content .content .logo-ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#app .contents .container .web-resources .content .content .logo-ul .link {
+  margin-right: 30px;
+}
+#app .contents .container .web-resources .content .content .website-img {
+  position: relative;
+  height: 124px;
+  margin: 50px 0;
+}
+#app .contents .container .web-resources .content .content .website-img .title-img {
+  background: url(../images/link_001.png);
+}
+#app .contents .container .web-resources .content .content .website-img::after {
+  position: absolute;
+  left: 250px;
+  bottom: -26px;
+  display: block;
+  content: '';
+  width: 65%;
+  height: 2px;
+  background-color: #EEEEEE;
+}
+#app .contents .container .web-resources .content .content .website-video {
+  height: 124px;
+  margin: 50px 0;
+}
+#app .contents .container .web-resources .content .content .website-video .title-img {
+  background: url(../images/link_002.png);
+}

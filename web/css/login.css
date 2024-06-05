@@ -1,0 +1,165 @@
+#app .header {
+  background-color: #FECE0A;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.35);
+}
+#app .contents {
+  background-color: #F2F4F7;
+}
+#app .contents .container {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .contents .container .login-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 440px;
+  height: 460px;
+  padding: 30px 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.07);
+}
+#app .contents .container .login-box .title {
+  width: 300px;
+  color: #333;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 0;
+  border-bottom: 2px solid #FECE0A;
+}
+#app .contents .container .login-box .from-info .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 281px;
+  margin-top: 50px;
+}
+#app .contents .container .login-box .from-info .input-wrapper .column {
+  position: relative;
+  display: flex;
+  height: 40px;
+  padding-left: 20px;
+  margin: 16px 0;
+  border-radius: 40px;
+  border: 1px solid #e4e3da;
+  box-sizing: border-box;
+  transition: border 0.5s;
+}
+#app .contents .container .login-box .from-info .input-wrapper .column .tips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 0;
+  top: -12px;
+  color: #fc3a3a;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#app .contents .container .login-box .from-info .input-wrapper .column .tips .fas {
+  padding: 0;
+  font-size: 14px;
+  color: #fc3a3a;
+}
+#app .contents .container .login-box .from-info .input-wrapper .captchabar {
+  align-self: baseline;
+  width: 180px;
+}
+#app .contents .container .login-box .from-info .input-wrapper .captchabar .captcha-img {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: -100px;
+  width: 85px;
+  height: 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+#app .contents .container .login-box .from-info .input-wrapper .captchabar .captcha-img img {
+  width: 100%;
+}
+#app .contents .container .login-box .from-info .input-wrapper .active-tips {
+  border-color: #fc3a3a !important;
+}
+#app .contents .container .login-box .from-info .input-wrapper .active-focus {
+  border-color: #ffcc00;
+}
+#app .contents .container .login-box .from-info .input-wrapper .showtips .tips {
+  opacity: 1;
+}
+#app .contents .container .login-box .from-info .input-wrapper .UP-input {
+  position: relative;
+  top: -0.5px;
+  height: 38px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 38px 38px 0;
+  width: 231px;
+  padding-right: 20px;
+  background-color: transparent;
+  outline: none;
+  box-sizing: border-box;
+}
+#app .contents .container .login-box .from-info .input-wrapper .UP-input::-webkit-input-placeholder {
+  font-size: 12px;
+}
+#app .contents .container .login-box .from-info .input-wrapper .fas {
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 10px;
+  color: #cfdbe6;
+}
+#app .contents .container .login-box .from-info .input-wrapper .btns {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+#app .contents .container .login-box .from-info .input-wrapper .btns .loginbtn,
+#app .contents .container .login-box .from-info .input-wrapper .btns .registerbtn {
+  flex: 1;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+#app .contents .container .login-box .from-info .input-wrapper .btns .loginbtn:hover,
+#app .contents .container .login-box .from-info .input-wrapper .btns .registerbtn:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+}
+#app .contents .container .login-box .from-info .input-wrapper .btns .loginbtn {
+  margin-right: 15px;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  transition: box-shadow 0.5s;
+}
+#app .contents .container .login-box .from-info .input-wrapper .btns .registerbtn {
+  color: #555555 !important;
+  background-color: #fff;
+  border: 1px solid #909090 !important;
+}
+#app .contents .container .login-box .copyright-wrapper {
+  position: absolute;
+  bottom: 20px;
+}
+#app .contents .container .login-box .copyright-wrapper .text {
+  color: #bbb;
+  font-size: 14px;
+}
+#app .contents .container .login-box .copyright-wrapper .text .tagging {
+  color: #ffd609;
+}
+#app .footer {
+  background-color: #3E3E3E;
+}

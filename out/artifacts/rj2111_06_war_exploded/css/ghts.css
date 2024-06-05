@@ -1,0 +1,28 @@
+#app .contents .container .mini-container {
+  width: 90%;
+  margin: 0 auto;
+}
+#app .contents .container .mini-container .screen-wrapper {
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 0;
+  margin: 20px 0;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+}
+#app .contents .container .mini-container .screen-wrapper > div {
+  display: flex;
+  margin-bottom: 25px;
+}
+#app .contents .container .mini-container .screen-wrapper > div .title {
+  margin-right: 15px;
+}
+#app .contents .container .mini-container .screen-wrapper > div .content .item-ul {
+  display: flex;
+}
+#app .contents .container .mini-container .screen-wrapper > div .content .item-ul .item {
+  margin: 0 10px;
+}
+#app .contents .container .mini-container .screen-wrapper > div .content .item-ul .item-active {
+  color: #ff0000;
+}

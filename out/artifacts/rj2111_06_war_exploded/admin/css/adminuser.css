@@ -1,0 +1,141 @@
+body {
+  font-size: 14px;
+  background-color: #EEF0F2;
+}
+#app .container .info-wrapper {
+  padding: 20px 50px;
+}
+#app .container .info-wrapper .hasShadow {
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+}
+#app .container .info-wrapper .title {
+  padding: 15px;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+#app .container .info-wrapper .title .fas {
+  color: #FF6809;
+}
+#app .container .info-wrapper .info-user {
+  margin: 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0;
+  transition: border-color 0.5s;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column .text {
+  font-size: 16px;
+  text-align: right;
+  width: 80px;
+  padding-right: 20px;
+  color: #48576A;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column input {
+  width: 460px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 15px;
+  border-radius: 5px;
+  border: 1px solid #BAC6D4;
+  outline: none;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column .input-active {
+  border-color: #ff9c4b;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column .input-tips {
+  border-color: #ff2519 !important;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column .tips {
+  position: absolute;
+  top: -16px;
+  left: 110px;
+  font-size: 12px;
+  color: #ff3b31;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .column .tips .fas {
+  margin-right: 5px;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .showTips .tips {
+  opacity: 1;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .sub-btn input {
+  width: 100px;
+  height: 37px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 100px;
+  background-color: #ff7017;
+  border-radius: 6px;
+  outline: none;
+}
+#app .container .info-wrapper .info-user .form-box .from-addUser .sub-btn input:hover {
+  background-color: #ff8336;
+}
+#app .container .table-wrapper .mini-table {
+  padding: 15px;
+  box-sizing: border-box;
+}
+#app .container .table-wrapper .mini-table .tablebox {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+}
+#app .container .table-wrapper .mini-table .tablebox tr {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+#app .container .table-wrapper .mini-table .tablebox tr :last-child {
+  border-right: none;
+}
+#app .container .table-wrapper .mini-table .tablebox tr th,
+#app .container .table-wrapper .mini-table .tablebox tr td {
+  height: 45px;
+  line-height: 45px;
+  flex: 1;
+  font-size: 14px;
+  border-right: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+#app .container .table-wrapper .mini-table .tablebox tr th {
+  background-color: #F8F8F8;
+}
+#app .container .table-wrapper .mini-table .tablebox tr td {
+  text-align: center;
+}
+#app .container .table-wrapper .mini-table .tablebox tr td .operation-btns input[type="button"] {
+  width: 20%;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+#app .container .table-wrapper .mini-table .tablebox tr td .operation-btns .lookbtn {
+  background-color: #429FF3;
+}
+#app .container .table-wrapper .mini-table .tablebox tr td .operation-btns .lookbtn:hover {
+  background-color: #2091f3;
+}
+#app .container .table-wrapper .mini-table .tablebox tr td .operation-btns .deletebtn {
+  background-color: #F66D67;
+}
+#app .container .table-wrapper .mini-table .tablebox tr td .operation-btns .deletebtn:hover {
+  background-color: #f55047;
+}

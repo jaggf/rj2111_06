@@ -1,0 +1,95 @@
+#app .contents .container {
+  position: relative;
+  padding-top: 50px;
+  background-color: #F5F3F4;
+}
+#app .contents .container .title {
+  width: 90%;
+  margin: 0 auto;
+}
+#app .contents .container .title .title-box {
+  display: flex;
+}
+#app .contents .container .title .title-box .link {
+  margin: 0 15px;
+  border-bottom: 3px solid transparent;
+}
+#app .contents .container .title .title-box .link:hover {
+  cursor: pointer;
+}
+#app .contents .container .title .title-box .link-active {
+  color: #ff0000;
+  border-bottom-color: #ff0000;
+}
+#app .contents .container .content {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 30px;
+}
+#app .contents .container .content .newest {
+  height: 100%;
+  width: 100%;
+  min-height: 800px;
+  display: block;
+}
+#app .contents .container .content .hottest {
+  height: 100%;
+  width: 100%;
+  min-height: 800px;
+  display: none;
+}
+#app .contents .container .content .items-ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#app .contents .container .content .items-ul .item {
+  width: 282px;
+  height: 201px;
+  margin-right: 30px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+#app .contents .container .content .items-ul .item img {
+  width: 100%;
+}
+#app .contents .container .content .items-ul .item:nth-of-type(3n) {
+  margin-right: 0;
+}
+#app .contents .container .more {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#app .contents .container .more .morebtn-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#app .contents .container .more .morebtn-box .morebtn {
+  width: 350px;
+  height: 35px;
+  margin: 0 auto;
+  color: #343641;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #FECC1A;
+  border: none;
+  border-radius: 5px;
+}
+#app .contents .container .returnTop {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+}
+#app .contents .container .returnTop .returnbtn {
+  width: 85px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

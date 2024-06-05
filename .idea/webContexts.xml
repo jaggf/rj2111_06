@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/Employee_file/addEmployee.jsp" value="file://$PROJECT_DIR$/web/Employee_file" />
+        <entry key="file://$PROJECT_DIR$/web/Employee_file/detailInfo.jsp" value="file://$PROJECT_DIR$/web/Employee_file" />
+        <entry key="file://$PROJECT_DIR$/web/Employee_file/manageEmployee.jsp" value="file://$PROJECT_DIR$/web/Employee_file" />
+        <entry key="file://$PROJECT_DIR$/web/Employee_file/modEmployee.jsp" value="file://$PROJECT_DIR$/web/Employee_file" />
+        <entry key="file://$PROJECT_DIR$/web/Employee_file/seachEm.jsp" value="file://$PROJECT_DIR$/web/Employee_file" />
+        <entry key="file://$PROJECT_DIR$/web/admin/admin.jsp" value="file://$PROJECT_DIR$/web/admin" />
+        <entry key="file://$PROJECT_DIR$/web/admin/users.jsp" value="file://$PROJECT_DIR$/web/admin" />
+        <entry key="file://$PROJECT_DIR$/web/em_acounts/ac_show.jsp" value="file://$PROJECT_DIR$/web/em_acounts" />
+        <entry key="file://$PROJECT_DIR$/web/exit.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/firstone.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/index.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/jx/addjx.jsp" value="file://$PROJECT_DIR$/web/jx" />
+        <entry key="file://$PROJECT_DIR$/web/jx/managejx.jsp" value="file://$PROJECT_DIR$/web/jx" />
+        <entry key="file://$PROJECT_DIR$/web/jx/modjx.jsp" value="file://$PROJECT_DIR$/web/jx" />
+        <entry key="file://$PROJECT_DIR$/web/kaoqin/managekaoqin.jsp" value="file://$PROJECT_DIR$/web/kaoqin" />
+        <entry key="file://$PROJECT_DIR$/web/login5.html" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/ms/managems.jsp" value="file://$PROJECT_DIR$/web/ms" />
+        <entry key="file://$PROJECT_DIR$/web/register.html" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/renshi/msjh/addms.jsp" value="file://$PROJECT_DIR$/web/renshi/msjh" />
+        <entry key="file://$PROJECT_DIR$/web/renshi/msjh/manage.jsp" value="file://$PROJECT_DIR$/web/renshi/msjh" />
+        <entry key="file://$PROJECT_DIR$/web/renshi/msjh/managems.jsp" value="file://$PROJECT_DIR$/web/renshi/msjh" />
+        <entry key="file://$PROJECT_DIR$/web/renshi/zpxq/modxq.jsp" value="file://$PROJECT_DIR$/web/renshi/zpxq" />
+        <entry key="file://$PROJECT_DIR$/web/salary/manage_salary.jsp" value="file://$PROJECT_DIR$/web/salary" />
+        <entry key="file://$PROJECT_DIR$/web/salary/modsalary.jsp" value="file://$PROJECT_DIR$/web/salary" />
+        <entry key="file://$PROJECT_DIR$/web/salary/salary_show.jsp" value="file://$PROJECT_DIR$/web/salary" />
+        <entry key="file://$PROJECT_DIR$/web/test3.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/testElement.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/user/kqme.jsp" value="file://$PROJECT_DIR$/web/user" />
+        <entry key="file://$PROJECT_DIR$/web/user/user_file.jsp" value="file://$PROJECT_DIR$/web/user" />
+        <entry key="file://$PROJECT_DIR$/web/xq/addxq.jsp" value="file://$PROJECT_DIR$/web/xq" />
+      </map>
+    </option>
+  </component>
+</project>

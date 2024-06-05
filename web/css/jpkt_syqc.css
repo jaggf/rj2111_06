@@ -1,0 +1,79 @@
+body{
+	background-color: #F5F3F4;
+}
+#app{
+	background-color: #fff;
+}
+#app .contents{
+	width: 90%;
+	height: 800px;
+	margin:  0 auto;
+	padding-top: 30px;
+}
+#app .contents .container .location p{
+	color: #757575;
+}
+#app .contents .container .title h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+#app .contents .container .videoarea{
+	position: relative;
+	width: 100%;
+	height: 408px;
+	display: flex;
+	justify-content: center;
+}
+#app .contents .container .videoarea .imgbox{
+	position: absolute;
+	height: 100%;
+}
+#app .contents .container .videoarea video{
+	width: 718px;
+	height: 408px;
+}
+#app .contents .container .introduction .title h2{
+	color: #D41213;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px 0;
+}
+#app .contents .container .introduction .text-ul{
+	width: 320px;
+	margin: 0 auto;
+}
+#app .contents .container .introduction .text-ol li{
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+#advertisement .advert{
+	position: fixed;
+	top: 200px;
+	width: 160px;
+	height: 250px;
+	background-color: #48aafa;
+}
+#advertisement .advert:nth-child(1){
+	left: 0;
+}
+#advertisement .advert:nth-child(1) .closebtn{
+	right: 0;
+}
+#advertisement .advert:nth-child(2){
+	right: 0;
+}
+#advertisement .advert:nth-child(2) .closebtn{
+	left: 0;
+}
+#advertisement .advert .closebtn{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	padding: 0 5px;
+	font-size: 12px;
+	text-align: center;
+	background-color: #4bdaf6;
+	cursor: pointer;
+}
